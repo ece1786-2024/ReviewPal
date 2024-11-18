@@ -22,7 +22,7 @@ def fetch_page_content(url):
 agent1 = OpenAI()
 agent2 = OpenAI()
 
-inputs = ["This place is mind-blowing. Kho Yum is really excellent. Service is great."]
+inputs = ["This place is mind-blowing. Khao Yum is really excellent. Great service."]
 restaurants = [("Kiin","https://www.tripadvisor.com/Restaurant_Review-g155019-d12501248-Reviews-Kiin-Toronto_Ontario.html")]
 for i in range(len(inputs)):
     # fetch webpage contents

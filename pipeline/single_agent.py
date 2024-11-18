@@ -81,7 +81,7 @@ def single_agent_few_shot(statement):
 
 
 input_statement = "This place is mind-blowing. The flavours are out of this world, the presentations are lovely, service is great."
-input_statement2 = "This place is mind-blowing. Kho Yum is really excellent. Service is great."
+input_statement2 = "This place is mind-blowing. Kho Yum is really excellent. Great service."
 output_statement = single_agent_few_shot(input_statement)
 
 
