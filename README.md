@@ -32,11 +32,11 @@ Run `pipeline.py` and save the output of the three agents for the 100 reviews.
 
 ### Outputs
 
-`final_output.txt` contains the outputs of agent 1 and 3 for the 100 reviews.
+`data/final_output.txt` contains the outputs of agent 1 and 3 for the 100 reviews.
 
-`restaurant_summary.txt` contains the outputs of agent 2 for the 20 restaurants.
+`data/restaurant_summary.txt` contains the outputs of agent 2 for the 20 restaurants.
 
-`final_output.csv` contains the user input and the final output of the system.
+`data/final_output.csv` contains the user input and the final output of the system.
 
 ## Evaluation
 
