@@ -54,4 +54,4 @@ During the development process, several additional files and scripts were create
 
 `pipeline/single_agent.py` contains our initial development of a single agent system where the user input is directly transformed to the final output review by prompting GPT-4o.
 
-`pipeline/agent1and2.py` contains our development of a 2-agent system that extracts restaurant information in the provided url and feed that information into an additional agent to produce a key point summary of the retaurant (an example result is shown in `pipeline/RAG_output.txt). Then, the generation agent takes both the restaurant summary and the user input to generate the review. 
+`pipeline/agent1and2.py` contains our development of a 2-agent system that extracts restaurant information in the provided url and feed that information into an additional agent to produce a key point summary of the retaurant (an example result is shown in `pipeline/RAG_output`). Then, the generation agent takes both the restaurant summary and the user input to generate the review. 
