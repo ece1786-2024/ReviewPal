@@ -74,7 +74,7 @@ def single_agent_few_shot(statement):
         messages=[{"role": "user", "content": prompt}],
         temperature=1.0,
         top_p=1.0,
-        max_tokens=250
+        max_tokens=300
     )
 
     return response['choices'][0]["message"]["content"].strip()
