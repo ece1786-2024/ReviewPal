@@ -48,3 +48,8 @@ Each review is evaluated based on 4 key criteria:
 - Overall Quality
 
 Each criterion is rate on a scale of 1 (poor) to 5 (Excellent). Evaluation of each criterion and the summary were under `/data/evaluation`.
+
+## Other Development Files
+During the development process, several additional files and scripts were created to experiment with and refine the system. While these are not part of the final pipeline, they represent the intermediate steps or alternative approaches we have explored:
+`pipeline/single_agent.py` contains our initial development of a single agent system where the user input is directly transformed to the final output review by prompting GPT-4o.
+`pipeline/agent1and2.py` contains our development of a 2-agent system that extracts restaurant information in the provided url and feed that information into an additional agent to produce a key point summary of the retaurant. The generation agent takes both the restaurant summary and the user input to generate the review.
