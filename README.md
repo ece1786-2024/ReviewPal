@@ -20,7 +20,7 @@ The processed dataset is stored in `labeled_output.csv`.
 
 ### Run the pipeline
 
-`pipeline.py` contains the final architecture of the system.
+`pipeline/pipeline.py` contains the final architecture of the system.
 
 To run the system, first set the OPENAI_API_KEY environment variable
 
